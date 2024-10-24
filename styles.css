@@ -1,15 +1,31 @@
 .container{
     width: 300px;
-    border: 1px solid black;
+    border: 4px double #cc0052;
     border-radius: 10px;
     display: block;
     margin: 50px auto;
-    background-color: #b3d9ff;
+    background-color:#ff80b3;
 }
 
 .dice-img{
     width: 200px;
     display: block;
     margin: 20px auto;
+}
 
+.btn-roll{
+    display: block;
+    margin: 20px auto;
+    background-color: #cc0052;
+    color: white;
+    font-size: 20px;
+    padding: 7px 40px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.heading{
+    text-align: center;
+    color: #cc0052;
 }
