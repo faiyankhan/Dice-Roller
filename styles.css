@@ -1,5 +1,5 @@
 .container{
-    width: 300px;
+    width: 400px;
     border: 4px double #cc0052;
     border-radius: 10px;
     display: block;
@@ -16,6 +16,7 @@
 .btn-roll{
     display: block;
     margin: 20px auto;
+    margin-top: 30px;
     background-color: #cc0052;
     color: white;
     font-size: 20px;
