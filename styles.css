@@ -1,0 +1,15 @@
+.container{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    background-color: #b3d9ff;
+}
+
+.dice-img{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+
+}
