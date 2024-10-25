@@ -1,19 +1,19 @@
-.container{
+.container {
     width: 400px;
     border: 4px double #cc0052;
     border-radius: 10px;
     display: block;
     margin: 50px auto;
-    background-color:#ff80b3;
+    background-color: #ff80b3;
 }
 
-.dice-img{
+.dice-img {
     width: 200px;
     display: block;
     margin: 20px auto;
 }
 
-.btn-roll{
+.btn-roll {
     display: block;
     margin: 20px auto;
     margin-top: 30px;
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-.heading{
+.heading {
     text-align: center;
     color: #cc0052;
 }
