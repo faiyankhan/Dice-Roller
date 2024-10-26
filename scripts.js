@@ -1,4 +1,4 @@
-function resetDice(){
+function resetDice() {
     const diceImg = document.getElementById('img-dice');
     diceImg.src = 'Roll-Dice.png';
 }
@@ -30,5 +30,5 @@ function rollDice() {
         diceImg.src = '6.png';
     }
 
-    setTimeout( resetDice,3000);
+    setTimeout(resetDice, 3000);
 }
