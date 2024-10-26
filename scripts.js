@@ -1,3 +1,8 @@
+function resetDice(){
+    const diceImg = document.getElementById('img-dice');
+    diceImg.src = 'Roll-Dice.png';
+}
+
 function rollDice() {
     const min = 1;
     const max = 6;
@@ -24,4 +29,6 @@ function rollDice() {
     else if (randomNum == 6) {
         diceImg.src = '6.png';
     }
+
+    setTimeout( resetDice,3000);
 }
